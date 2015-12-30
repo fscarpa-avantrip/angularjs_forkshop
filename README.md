@@ -1,4 +1,4 @@
-[![Build Status] https://travis-ci.org/fscarpa-avantrip/angularjs_forkshop.png]https://travis-ci.org/fscarpa-avantrip/angularjs_forkshop
+[![Build Status] (https://travis-ci.org/fscarpa-avantrip/angularjs_forkshop.png)](https://travis-ci.org/fscarpa-avantrip/angularjs_forkshop)
 
 # angularjs_forkshop
 Repo con el workshop de AngularJS (AKA forkshop) 
