@@ -1,3 +1,4 @@
+view.statusString
 # angularjs_forkshop
 Repo con el workshop de AngularJS (AKA forkshop) 
 
