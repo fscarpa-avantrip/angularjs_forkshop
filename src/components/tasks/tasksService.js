@@ -23,6 +23,23 @@
                     return $http(request).then(function (response) {
                         return response.data.map(translate_idToid);
                     });
+                },
+                write: function (task) {
+                    var request = {
+                        method: 'POST',
+                        url: base_uri,
+                        headers: {
+                            'Content-Type': 'application/json'
+                        },
+                        data: task,
+                        params: {
+                            'apiKey': api_key
+                        }
+                    };
+
+                    return $http(request).then(function () {
+                        return 'SUCCES';
+                    }, function() {return 'ERROR';});
                 }
 
             };

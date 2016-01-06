@@ -40,5 +40,15 @@
             }));
         });
 
-    });
+        describe('Write method', function() {
+            it('Should translate read service to http GET method', inject(function(Tasks, $httpBackend) {
+                var task =  { "_id" : { "$oid" : "565c94a8e4b03d453c995e48"} , "description" : "Hacer el workshop" , "status" : "WIP"};
+                Tasks.write(task);
+                $httpBackend.flush();
+
+            }));
+
+        });
+
+       });
 })();
